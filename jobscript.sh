@@ -1,8 +1,10 @@
 #!/bin/bash
-echo "Bienvenido/a al planeta $planeta"
+echo "Ejecutando Despliegue $Ambiente"
 if [ "$agente" = "true" ]
 then
-	echo "Prepárese para la misión agente X, que la fuerza te acompañe."
+	echo "El despliegue se realizara en:"
+        for(int i=0; i<=5; i++)
+           println(i)
 else
 	echo "Disfruta el planeta humano/a $nombre, trata de no morir."
 fi
