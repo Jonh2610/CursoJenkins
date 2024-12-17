@@ -7,7 +7,7 @@ do
  echo "Desplegando en: $i"
 done 
 else
-	echo "Disfruta el planeta humano/a $nombre, trata de no morir."
+	echo "Error al deplegar favor de contactar a $nombre."
 fi
 echo "..."
 sleep 10
